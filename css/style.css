@@ -27,7 +27,7 @@ h1 {
 /* Estilos de la parte principal */
 #heroes {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -97,4 +97,3 @@ footer {
     justify-items: end;
     padding: 15px;
 }
-
