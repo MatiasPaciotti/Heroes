@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5e5;
+}
+
+/* Estilos del encabezado */
+.descuento {
+    background-color: #D1891C;
+    color: #000000;
+}
+
+h1 {
+    background-color: #00669F;
+    color: #ffffff;
+    height: 10vh;
+    padding-left: 30px;
+    padding-top: 10px;
+    
+}
+
+/* Estilos de la parte principal */
+#heroes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+article {
+    width: 300px;
+    text-align: center;
+    margin: 30px;
+}
+
+.fotos-portada {
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.fotos-heroes {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 105px;
+}
+
+h2 {
+    position: relative;
+    bottom: 90px;
+}
+
+article p {
+    position: relative;
+    bottom: 90px;
+    margin: 10px;
+    text-align: justify;
+}
+
+button {
+    background-color: #00669F;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    position: relative;
+    bottom: 90px;
+}
+
+button:hover {
+    background-color: #003b5e;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 5px 5px #999;
+}
+
+.button:active {
+    transform: translateY(4px);
+}
+
+/* Estilos del pie de pagina */
+footer {
+    align-items: center;
+    background-color: #00669F;
+    color: #FFF9F9;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 8vh;
+    justify-items: end;
+    padding: 15px;
+}
+
